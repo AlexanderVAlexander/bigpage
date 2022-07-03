@@ -1,0 +1,149 @@
+.latest_portfolio_title_wrapper{
+	max-width: 1225px;
+	margin: 0 auto;
+}
+.latest_portfolio_title_text{
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 95px;
+	margin-bottom: 10px;
+}
+.latest_portfolio_underline{
+	border-bottom: 1px solid #4d4949;
+	border-left: 1px solid #4d4949;
+	border-right: 1px solid #4d4949;
+	height: 10px;
+	width: 160px;
+	margin: 0 auto;
+}	
+.latest_portfolio_underline::before{
+	content: "-";
+	position: relative;
+	right: 5px;
+	top: -8px;
+}
+.latest_portfolio_underline::after{
+	content: "-";
+	position: relative;
+	left: 152px;
+	top: -8px;
+}
+.latest_portfolio_subtitle{
+	font-size: 18px;
+	padding-top: 15px;
+	line-height: 30px;
+	text-align: center; 
+}
+.latest_portfolio_blocks{
+	display: flex;
+	max-width: 1225px;
+	margin: 0 auto;
+}
+.latest_portfolio_ocean{
+	background: url('../img/ocean.png') 0 0/380px auto no-repeat;
+	margin-right: 40px;
+	margin-top: 60px;
+	width: 380px;
+	height: 255px;
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	align-items: center;
+	font-size: 22px;
+	font-weight: bolder;
+	color: white;
+		&:hover{
+		background: url('../img/icons/a-icon-playmini.svg') 335px 215px no-repeat,url('../img/icons/a-icon-search-1.svg') 355px 5px no-repeat, url('../img/ocean.png') 0 0/380px auto no-repeat;
+		box-shadow: 5px 5px 10px 1px #505050;
+		cursor: pointer;
+}
+}
+.latest_portfolio_city{
+	background: url('../img/city.png') 0 0/380px auto no-repeat;
+	margin-top: 60px;
+	margin-right: 40px;
+	width: 380px;
+	height: 255px;
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	align-items: center;
+	font-size: 22px;
+	font-weight: bolder;
+	color: white;
+		&:hover{
+		background: url('../img/icons/a-icon-playmini.svg') 335px 215px no-repeat,url('../img/icons/a-icon-search-1.svg') 355px 5px no-repeat, url('../img/city.png') 0 0/380px auto no-repeat;
+		box-shadow: 5px 5px 10px 1px #505050;
+		cursor: pointer;
+}
+}
+.latest_portfolio_mountains{
+	background: url('../img/mountain.png') 0 0/380px auto no-repeat;
+	margin-top: 60px;
+	width: 380px;
+	height: 255px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	font-size: 22px;
+	font-weight: bolder;
+	color: white;
+		&:hover{
+		background: url('../img/icons/a-icon-playmini.svg') 335px 215px no-repeat,url('../img/icons/a-icon-search-1.svg') 355px 5px no-repeat, url('../img/mountain.png') 0 0/380px auto no-repeat;
+		box-shadow: 5px 5px 10px 1px #505050;
+		cursor: pointer;
+}
+}
+.latest_portfolio_description{
+	font-weight: 300;
+	padding-top: 5px;
+	font-size: 16px;
+}
+.latest_portfolio_buttons{
+	margin-top: 45px;
+	position: relative;
+	left: 285px;
+
+} 
+.latest_portfolio_left{
+	font-size: 26px;
+	border: 0.5px solid #000000;
+	padding: 2px 16px 2px 16px;
+	border-radius: 5px;
+	background-color: #fff;
+		&:hover{
+		box-shadow: 2px 2px 10px 1px #505050;
+}
+}
+.latest_portfolio_right{
+	font-size: 26px;
+	border: 0.5px solid #000000;
+	padding: 2px 16px 2px 16px;
+	border-radius: 5px;
+	position: relative;
+	left: 284px;
+	background-color: #fff;
+		&:hover{
+		box-shadow: 2px 2px 10px 1px #505050;
+}
+}
+.latest_portfolio_link{
+	display:flex;
+	justify-content: center;
+
+}
+.latest_portfolio_link_button{
+	margin-top: 42px;
+	margin-bottom: 65px;
+	color: #000000;
+	font-size: 16px;
+	border: 0.5px solid #000000;
+	border-radius: 5px;
+	padding: 15px 27px 15px 27px;
+	position: relative;
+		&:hover{
+		box-shadow: 2px 2px 10px 1px #505050;
+}
+}

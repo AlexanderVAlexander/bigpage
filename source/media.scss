@@ -1,0 +1,183 @@
+@media screen and (min-width: 1550px) and (max-width: 1920px){
+.latest_portfolio_buttons{
+	position: relative;
+	left: 290px;
+
+} 
+.testimonials_card{
+	position: relative;
+	left: -160px;
+}
+.testimonials_text{
+	position: relative;
+	left: 465px;
+}
+.testimonials_photoUser{
+	position: relative;
+	left: 465px;
+}
+
+.contact_underline{
+	position: relative;
+	left: 550px;
+}
+.clientcard{
+	width: 810px;
+	position: relative;
+	top: -77px;
+	left: 310px;
+}
+.footer_title{
+	position: relative;
+	left: 450px;
+}
+.footer_date{
+	position: relative;
+	left: 920px;
+}
+}
+
+@media screen and (min-width: 1290px) and (max-width: 1360px){
+
+.about_table{
+	left: 275px;
+	width: 760px;
+}
+.latest_portfolio_buttons{
+	left: 225px;
+} 
+.testimonials_card{
+	position: relative;
+	left: -5px;
+}
+.contactUs_underline{
+	left: 480px;
+}
+.userblock_input{
+	width: 300px;
+}
+.clientcard{
+	width: 700px;
+}
+.userblock_img_map{
+	width: 330px;
+	height: 600px;
+}
+.block_subtitle::after{
+	left: -17.5px;
+	top: 16px;
+	height: 140px;
+}
+.footer_wrapper{
+	max-width: 1001px;
+}
+.footer_title{
+	position: relative;
+	left: 300px;
+}
+.footer_date{
+	position: relative;
+	left: 560px;
+}
+}
+@media screen and (min-width: 1000px) and (max-width: 1280px){
+
+.table_img{
+	left: 275px;
+	width: 680px;
+}
+.latest_portfolio_buttons{
+	position: relative;
+	left: 155px;
+
+}
+
+.testimonials_text{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 180px;
+	height: 230px;
+	font-size: 14px;
+}
+.photoUser{
+	width: 200px;
+	height: 230px;
+	position: relative;
+	left: 80px;
+
+}
+.name{
+	font-weight: 300;
+	font-size: 14px;
+	padding-top: 10px;
+}
+.job{
+	font-weight: 300;
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+
+.testimonials_button_right{
+	position: relative;
+	left: 450px;
+}
+.contact_underline{
+	position: relative;
+	left: 445px;
+}
+.block_text{
+	left: 105px;
+	width: 270px
+}
+.block_subtitle{
+	left: 90px;
+	&::after{
+	left: -17.5px;
+	top: 16px;
+	height: 150px;
+	}
+}
+
+.block_subtitle_third{
+	left: 90px;
+}
+.message_text{
+	padding-top: 0;
+	padding-left: 2px;
+	padding-right: 10px;
+	font-size: 16px;
+	line-height: 16px;
+}
+.userblock_input{
+	width: 150px;
+}
+.clientcard{
+	width: 500px;
+	left: 60px;
+}
+.userblock_img_map{
+	width: 285px;
+	height: 600px;
+}
+.button_text{
+	position: absolute;
+	top: 520px;
+	left: 30px;
+}
+.userblock_text{
+	width: 150px;
+	line-height: 15px;
+}
+.footer_wrapper{
+	max-width: 1001px;
+}
+.footer_title{
+	position: relative;
+	left: 300px;
+}
+.footer_date{
+	position: relative;
+	left: 560px;
+}
+}
